@@ -1,0 +1,26 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides time zone data and subroutines for use with modules 'DateTime::*' and 'LocalTime'",
+  "license": "Artistic-2.0",
+  "name": "Timezones::Global",
+  "perl": "6.d",
+  "provides": {
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/tbrowder/Timezones-Global.git",
+  "tags": [
+    "time timezones global"
+  ],
+  "test-depends": [
+    "IO::Capture::Simple"
+  ],
+  "version": "0.0.1"
+}

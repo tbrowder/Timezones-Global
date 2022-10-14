@@ -1,0 +1,6 @@
+use Test;
+use Timezones::Global;
+
+pass "replace me";
+
+done-testing;
