@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tbrowder/Timezones-Global/actions/workflows/test.yml/badge.svg)](https://github.com/tbrowder/Timezones-Global/actions)
+
 NAME
 ====
 
@@ -15,15 +17,17 @@ DESCRIPTION
 
 Raku module **Timezones::Global** provides constant Global time zone data (currently valid through the year 2030) to be used by related date and time dynamic modules.
 
+(Note this module is intended to supersede module **Timezones::US** and it includes all the code and data from that module which is now deprecated. Non-US users are encouraged to add regional data via a pull request. See [CONTRIBUTING](./CONTRIBUTING) for details.)
+
 The following table shows the time zones included:
 
 <table class="pod-table">
 <caption>Global Time Zones</caption>
 <thead><tr>
-<th>Name</th> <th>Symbol</th> <th>UTC offset (hrs)</th>
+<th>Country Code</th> <th>Name</th> <th>Symbol</th> <th>UTC offset (hrs)</th>
 </tr></thead>
 <tbody>
-<tr> <td>Atlantic</td> <td>AST</td> <td>-4,</td> </tr> <tr> <td>Eastern</td> <td>EST</td> <td>-5</td> </tr> <tr> <td>Central</td> <td>CST</td> <td>-6</td> </tr> <tr> <td>Mountain</td> <td>MST</td> <td>-7</td> </tr> <tr> <td>Pacific</td> <td>PST</td> <td>-8</td> </tr> <tr> <td>Alaska</td> <td>AKST</td> <td>-9</td> </tr> <tr> <td>Hawaii-Aleutian</td> <td>HAST</td> <td>-10</td> </tr> <tr> <td>Samoa</td> <td>WST</td> <td>-11</td> </tr> <tr> <td>Chamorro</td> <td>CHST</td> <td>+10</td> </tr>
+<tr> <td>US</td> <td>Atlantic</td> <td>AST</td> <td>-4,</td> </tr> <tr> <td>US</td> <td>Eastern</td> <td>EST</td> <td>-5</td> </tr> <tr> <td>US</td> <td>Central</td> <td>CST</td> <td>-6</td> </tr> <tr> <td>US</td> <td>Mountain</td> <td>MST</td> <td>-7</td> </tr> <tr> <td>US</td> <td>Pacific</td> <td>PST</td> <td>-8</td> </tr> <tr> <td>US</td> <td>Alaska</td> <td>AKST</td> <td>-9</td> </tr> <tr> <td>US</td> <td>Hawaii-Aleutian</td> <td>HAST</td> <td>-10</td> </tr> <tr> <td>US</td> <td>Samoa</td> <td>WST</td> <td>-11</td> </tr> <tr> <td>US</td> <td>Chamorro</td> <td>CHST</td> <td>+10</td> </tr>
 </tbody>
 </table>
 

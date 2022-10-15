@@ -18,21 +18,26 @@ Raku module B<Timezones::Global> provides constant Global time zone data
 (currently valid through the year 2030)
 to be used by related date and time dynamic modules.
 
+(Note this module is intended to supersede module B<Timezones::US> and it
+includes all the code and data from that module which is now deprecated.
+Non-US users are encouraged to add regional data via a pull request. 
+See [CONTRIBUTING](./CONTRIBUTING) for details.)
+
 The following table shows the time zones included:
 
 =begin table :caption<Global Time Zones>
-Name            | Symbol | UTC offset 
-                |        | (hrs)
-----------------+--------+-----------------
-Atlantic        | AST    | -4,
-Eastern         | EST    | -5
-Central         | CST    | -6
-Mountain        | MST    | -7
-Pacific         | PST    | -8
-Alaska          | AKST   | -9
-Hawaii-Aleutian | HAST   | -10
-Samoa           | WST    | -11
-Chamorro        | CHST   | +10
+Country | Name            | Symbol | UTC offset 
+Code    |                 |        | (hrs)
+--------+-----------------+--------+-----------------
+US      | Atlantic        | AST    | -4,
+US      | Eastern         | EST    | -5
+US      | Central         | CST    | -6
+US      | Mountain        | MST    | -7
+US      | Pacific         | PST    | -8
+US      | Alaska          | AKST   | -9
+US      | Hawaii-Aleutian | HAST   | -10
+US      | Samoa           | WST    | -11
+US      | Chamorro        | CHST   | +10
 =end table
 
 =head3 Exported constants

@@ -12,6 +12,7 @@
   "name": "Timezones::Global",
   "perl": "6.d",
   "provides": {
+    "Timezones::Global": "lib/Timezones/Global.rakumod"
   },
   "resources": [
   ],
